@@ -1,0 +1,7 @@
+version: '3.6'
+services:
+  node:
+    image: node:9.11.1
+    working_dir: /web/try-next-javascript
+    volumes:
+      - .:/web/try-next-javascript
